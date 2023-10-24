@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        
+
+
+
+        .container {
+            display: grid;
+        }
+
+        .menu {
+            grid-column-start: 3;
+            grid-column-end: 8;
+            grid-row-start: 4;
+            grid-row-end: 6;
+            justify-content: center;
+            gap: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+        h1{
+    text-align: center;
+    color: white;
+    background-color: #5b0012;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+        } 
+
+
+        ul {
+            list-style-type: none;
+
+            color: #6f0921;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #6f0921 1px;
+        }
+
+        li {
+            float: right;
+        }
+
+        a:hover {
+            background-color: #6f0921;
+            color: white;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 6;
+            background-color: #6f0921;
+            color: white;
+            text-align: center;
+        }
+
+        h2{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+    
+
+</style>
+<body>
+    <h1>Minha Página</h1>
+ 
+<!--diretório com os links-->
+    <nav class="container menu">
+        <ul>
+            <li><a href="formulario.html">Contato</a></li>
+            <li><a href="formacao.html">Formação Acadêmica</a></li>
+            <li><a href="experiencia.html">Experiência Profissional</a></li>
+            <li><a href="https://github.com/bbrunard">Portfólio</a></li>
+            <li><a href="sobremim.html">Sobre Mim</a></li>
+        </ul>
+    </nav>
+
+<!--infos centrais da página-->
+    <h2>Bruna Ribeiro Domingues</h2>
+
+    <p>22 Anos</p>
+    <p>São Paulo</p>
+
+</body>
+</html>
