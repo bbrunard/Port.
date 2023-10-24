@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<style>
+
+    h1{
+    text-align: center;
+    color: white;
+    background-color: #5b0012;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    } 
+
+    .container {
+            display: grid;
+        }
+
+        .menu {
+            grid-column-start: 3;
+            grid-column-end: 8;
+            grid-row-start: 4;
+            grid-row-end: 6;
+            justify-content: center;
+            gap: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #6f0921 1px;
+        }
+
+        ul {
+            list-style-type: none;
+
+            color: #6f0921;
+        }
+
+        li {
+            float: right;
+        }
+
+        a:hover {
+            background-color: #6f0921;
+            color: white;
+        }
+
+</style>
+<body>
+    <h1>Dados para Contato</h1>
+
+    <nav class="container menu">
+        <ul>
+            <li><a href="formulario.html">Contato</a></li>
+            <li><a href="formacao.html">Formação Acadêmica</a></li>
+            <li><a href="experiencia.html">Experiência Profissional</a></li>
+            <li><a href="https://github.com/bbrunard">Portfólio</a></li>
+            <li><a href="sobremim.html">Sobre Mim</a></li>
+        </ul>
+    </nav>
+
+    <fieldset>
+
+    <form action="" method="">
+    <table>
+    </br>
+    </br>
+    
+<!--caixas para inserção de texto-->    
+    <tr>
+        <th><label for="nome">Nome:</label></th>
+        <td><input type="text" name="nome"id="nome"></td>
+    </tr>
+
+
+    <tr>
+        <th><label for="email">E-mail:</label></th>
+        <td><input type="email" name="email"id="email"></td>
+    </tr>
+    <tr>
+        <th><label for="msg">Digite sua Mensagem:</label></th>
+        <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td> <button>Enviar</button></td>
+        </tr>
+
+    </fieldset>
+    </table>
+
+</body>
+</html>
